@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+   
+    <title>Zrealizowane zlecenia</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+</head>
+<!--header-->
+<body id="bg-img" class="works-bg">
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+        <!--rozwijane menu-->
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        Strona Główna
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        O Mnie
+                    </a>
+                </li>
+                <li class="nav-item current">
+                    <a href="work.html" class="nav-link">
+                        Wykonane Zlecenia
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="offers.html" class="nav-link">
+                        Oferty
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="prices.html" class="nav-link">
+                        Cennik
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        Kontakt
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!--main part-->
+    <main id="home">
+        <h1 class="lg-heading text-secondary">Moje wykonane zlecenia</h1>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="imgBX">
+                      <img src="img/work/work-1.jpg" alt="">
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBX">
+                    <img src="img/work/work-2.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBX">
+                    <img src="img/work/work-3.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBX">
+                    <img src="img/work/work-4.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBX">
+                    <img src="img/work/work-5.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBX">
+                    <img src="img/work/work-6.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBX">
+                    <img src="img/work/work-7.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBX">
+                    <img src="img/work/work-8.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBX">
+                    <img src="img/work/work-9.jpg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBX">
+                    <img src="img/work/work-10.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+
+    </main>
+    
+<!--footer part-->
+     <footer>
+        <p>MONROM 2020 &copy</p>
+    </footer> 
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+</body>
+</html>
