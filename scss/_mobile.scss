@@ -31,13 +31,17 @@
 // Desktop & Laptops
 @include mediaLg {
 
+    html, body {
+        height: 100%;
+        overflow-y: auto;
+    }
     main {
         display: flex;
         flex-direction: column;
         
         .swiper-container {
 
-            padding-top: 100px;
+            padding-top: 70px;
     
                 .swiper-slide {
                     width: 350px;

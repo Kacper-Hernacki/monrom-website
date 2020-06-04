@@ -111,11 +111,14 @@
     font-size: 5rem; } }
 
 @media screen and (min-width: 968px) and (max-width: 1400px) {
+  html, body {
+    height: 100%;
+    overflow-y: auto; }
   main {
     display: flex;
     flex-direction: column; }
     main .swiper-container {
-      padding-top: 100px; }
+      padding-top: 70px; }
       main .swiper-container .swiper-slide {
         width: 350px;
         height: 350px; }
@@ -241,7 +244,7 @@ html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   .index-bg#bg-img {
-    background: url(../img/doors-main-2.jpg);
+    background: url(../img/doors-main-3.jpg);
     background-attachment: fixed;
     background-size: cover; }
     .index-bg#bg-img::after {
