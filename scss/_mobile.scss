@@ -41,7 +41,7 @@
         
         .swiper-container {
 
-            padding-top: 70px;
+            padding-top: 20px;
     
                 .swiper-slide {
                     width: 350px;
@@ -78,7 +78,35 @@
                 }
             }
           }
+
+          .boxes{
+            margin-top: 20px;
         }
+
+        .pricing-table{
+            padding-top: 15px;
+            flex-wrap: nowrap;
+            .col{
+                
+            
+                .table{
+                    padding: 20px;
+                    height: 380px;
+                    width: 250px;
+                    .price{
+                        margin-bottom: 10px;
+                    }
+                    ul {
+                        padding: 5px 0;
+                        li{
+                            padding: 5px 0;
+                        }
+                    }
+                }
+            }
+        }
+          
+    }
 
     h1 {
         &.lg-heading {
@@ -97,6 +125,7 @@
 
     }
 
+    
     
 }
 
@@ -135,8 +164,8 @@
           }
         
           .card {
-              width: 200px;
-              height: 300px;
+              width: 400px;
+              height: 600px;
               margin: 6rem 0;
 
             .front-side {
@@ -174,7 +203,7 @@
 
         .about-info {
             flex-direction: column;
-            margin-top: 40px;
+            margin-top: 100px;
 
             .photo-container {
                 width: 100%;
@@ -185,7 +214,30 @@
                 width: 100%; 
                 margin-top: 0px;
                 height: 200px;
-                overflow-y: auto;
+                
+            }
+        }
+
+        .pricing-table{
+            padding-top: 15px;
+            flex-wrap: wrap;
+            .col{
+                
+            
+                .table{
+                    padding: 20px;
+                    height: 380px;
+                    width: 250px;
+                    .price{
+                        margin-bottom: 10px;
+                    }
+                    ul {
+                        padding: 5px 0;
+                        li{
+                            padding: 5px 0;
+                        }
+                    }
+                }
             }
         }
     }
@@ -222,7 +274,7 @@
 // Smartphones
 @include mediaSm {
     .swiper-container {
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     .swiper-slide {
@@ -237,7 +289,7 @@
     .about-info {
         flex-direction: column;
         margin-top: 20px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
        
 
         .photo-container {
@@ -249,7 +301,7 @@
             width: 100%; 
             margin-top: 0px;
             height: 260px;
-            overflow-y: scroll;
+            
         }
     }
     
