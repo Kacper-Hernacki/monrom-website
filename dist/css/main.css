@@ -290,7 +290,8 @@
     .text-container p {
       font-size: 10px !important;
       padding: 0 !important;
-      margin: 0 !important; } }
+      margin: 0 !important;
+      text-align: justify; } }
 
 html, body {
   height: 100%; }
