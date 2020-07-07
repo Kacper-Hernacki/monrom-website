@@ -318,3 +318,21 @@
     
 }
 
+@include mediaXSm{
+
+    .menu{
+
+        .nav-link{
+            padding: 0;
+            font-size: 20px;
+        }
+    }
+
+    .menu-branding{
+        height: 35vh;
+    }
+
+    .menu-nav{
+        height: 65vh;
+    }
+}
