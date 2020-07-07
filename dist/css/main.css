@@ -275,7 +275,22 @@
     height: 65vh;
     justify-content: flex-start; }
   .portrait img {
-    width: 90px; } }
+    width: 90px; }
+  .about-header-lg {
+    font-size: 35px !important; }
+  .about-header-sm {
+    font-size: 15px !important; }
+  .photo-container {
+    visibility: hidden !important;
+    height: 0;
+    padding: 0 !important; }
+  .text-container {
+    padding: 0 !important;
+    margin: 0 !important; }
+    .text-container p {
+      font-size: 10px !important;
+      padding: 0 !important;
+      margin: 0 !important; } }
 
 html, body {
   height: 100%; }

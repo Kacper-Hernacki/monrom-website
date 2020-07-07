@@ -343,4 +343,29 @@
             width: 90px;
         }
     }
+
+    .about-header-lg{
+        font-size: 35px!important;
+    }
+
+    .about-header-sm{
+        font-size: 15px!important;
+    }
+
+    .photo-container{
+        visibility: hidden!important;
+        height: 0;
+        padding: 0!important;
+    }
+
+    .text-container{
+
+         padding: 0!important;
+         margin: 0!important;
+        p{
+         font-size: 10px!important;
+         padding: 0!important;
+         margin: 0!important;
+        }
+    }   
 }
