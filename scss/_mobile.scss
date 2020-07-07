@@ -335,6 +335,7 @@
     .menu-nav{
         height: 65vh;
         justify-content: flex-start;
+        padding-top: 40px;
     }
 
     .portrait{
@@ -348,8 +349,18 @@
         font-size: 35px!important;
     }
 
+    .work-header-lg{
+        font-size: 30px!important;
+    }
+
     .about-header-sm{
         font-size: 15px!important;
+    }
+
+    .work-header-sm{
+        visibility: hidden;
+        height: 0;
+        margin-bottom: 0!important;
     }
 
     .photo-container{
@@ -364,10 +375,16 @@
          margin: 0!important;
 
         p{
-         font-size: 10px!important;
+         font-size: 15px!important;
          padding: 0!important;
          margin: 0!important;
          text-align: justify;
         }
     }   
+
+    .swiper-container{
+        padding-top: 20px!important;
+        height: 380px!important;
+    }
+
 }
