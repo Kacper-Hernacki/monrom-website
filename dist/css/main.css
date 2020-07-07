@@ -324,6 +324,13 @@
   .table {
     width: 200px !important;
     height: 300px !important; }
+  .table h2 {
+    font-size: 16px !important; }
+  .table li {
+    font-size: 13px !important;
+    padding: 0 !important; }
+  .price {
+    font-size: 16px !important; }
   .col {
     padding-bottom: 30px !important; } }
 
