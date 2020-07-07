@@ -272,7 +272,10 @@
   .menu-branding {
     height: 35vh; }
   .menu-nav {
-    height: 65vh; } }
+    height: 65vh;
+    justify-content: flex-start; }
+  .portrait img {
+    width: 90px; } }
 
 html, body {
   height: 100%; }

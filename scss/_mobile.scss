@@ -334,5 +334,13 @@
 
     .menu-nav{
         height: 65vh;
+        justify-content: flex-start;
+    }
+
+    .portrait{
+
+        img{
+            width: 90px;
+        }
     }
 }
