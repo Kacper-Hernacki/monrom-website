@@ -314,7 +314,9 @@
     margin: 25px 0 !important;
     width: 200px !important;
     height: 300px !important;
-    margin-bottom: 90px !important; } }
+    margin-bottom: 90px !important; }
+  .navigation-button {
+    font-size: 10px !important; } }
 
 html, body {
   height: 100%; }
