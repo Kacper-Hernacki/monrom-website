@@ -335,7 +335,16 @@
   .price {
     font-size: 16px !important; }
   .col {
-    padding-bottom: 30px !important; } }
+    padding-bottom: 30px !important; }
+  .contact-header-lg {
+    font-size: 30px !important; }
+  .contact-header-sm {
+    font-size: 15px !important; }
+  .boxes {
+    margin-top: 10px !important; }
+  .mobile {
+    font-size: 15px !important;
+    margin-bottom: 1rem !important; } }
 
 html, body {
   height: 100%; }
