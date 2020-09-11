@@ -6,24 +6,6 @@ const menuBranding = document.querySelector(".menu-branding");
 
 const navItems = document.querySelectorAll(".nav-item");
 
-function lock(orientation) {
-  // Go into full screen first
-  if (document.documentElement.requestFullscreen) {
-    document.documentElement.requestFullscreen();
-  } else if (document.documentElement.mozRequestFullScreen) {
-    document.documentElement.mozRequestFullScreen();
-  } else if (document.documentElement.webkitRequestFullscreen) {
-    document.documentElement.webkitRequestFullscreen();
-  } else if (document.documentElement.msRequestFullscreen) {
-    document.documentElement.msRequestFullscreen();
-  }
-
-  // Then lock orientation
-  screen.orientation.lock(orientation);
-}
-
-lock("landcape");
-
 //Set Initial State of Menu
 let showMenu = false;
 
