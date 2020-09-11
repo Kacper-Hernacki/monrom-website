@@ -1,467 +1,438 @@
 // Widescreens
 @include mediaXL {
-    .swiper-container {
+  .swiper-container {
+    padding-top: 150px;
 
-        padding-top: 150px;
+    .swiper-slide {
+      width: 500px;
+      height: 500px;
+    }
+  }
 
-            .swiper-slide {
-                width: 500px;
-                height: 500px;
-            }
-        }
+  .col {
+    .table {
+      height: 550px;
+    }
+  }
+  .icons {
+    .fab {
+      font-size: 5rem;
+    }
 
-        .col {
-            .table {
-                height: 550px;
-            }
-        }
-        .icons{
-            .fab{
-                font-size: 5rem;
-            }
-    
-            .fas{
-                font-size: 5rem;
-            }
-    
-        }
-      
+    .fas {
+      font-size: 5rem;
+    }
+  }
 }
 
 // Desktop & Laptops
 @include mediaLg {
+  html,
+  body {
+    height: 100%;
+    overflow-y: auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
 
-    html, body {
-        height: 100%;
-        overflow-y: auto;
+    .swiper-container {
+      padding-top: 20px;
+
+      .swiper-slide {
+        width: 350px;
+        height: 350px;
+      }
     }
-    main {
-        display: flex;
-        flex-direction: column;
-        
-        .swiper-container {
 
-            padding-top: 20px;
-    
-                .swiper-slide {
-                    width: 350px;
-                    height: 350px;
-                }
-            }
+    .cards-wrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+    }
 
-        .cards-wrapper {
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items: center;
+    .card {
+      margin: 2rem 0;
+      width: 200px;
+      height: 300px;
+
+      .front-side {
+        .offer-name {
+          font-size: 20px;
+        }
+      }
+
+      .back-side {
+        .offer-name-back {
+          font-size: 20px;
+        }
+
+        .card-list {
+          .card-list-item {
+            font-size: 15px;
           }
-        
-          .card {
-            margin: 2rem 0;
-            width: 200px;
-            height: 300px;
+        }
+      }
+    }
 
-            .front-side{
-                .offer-name{
-                    font-size: 20px;
-                }
-            }
+    .boxes {
+      margin-top: 20px;
+    }
 
-            .back-side {
-                .offer-name-back{
-                    font-size: 20px;
-                }
-
-                .card-list{
-                    .card-list-item{
-                        font-size: 15px;
-                    }
-                }
+    .pricing-table {
+      padding-top: 15px;
+      flex-wrap: nowrap;
+      .col {
+        .table {
+          padding: 20px;
+          height: 380px;
+          width: 250px;
+          .price {
+            margin-bottom: 10px;
+          }
+          ul {
+            padding: 5px 0;
+            li {
+              padding: 5px 0;
             }
           }
-
-          .boxes{
-            margin-top: 20px;
         }
+      }
+    }
+  }
 
-        .pricing-table{
-            padding-top: 15px;
-            flex-wrap: nowrap;
-            .col{
-                
-            
-                .table{
-                    padding: 20px;
-                    height: 380px;
-                    width: 250px;
-                    .price{
-                        margin-bottom: 10px;
-                    }
-                    ul {
-                        padding: 5px 0;
-                        li{
-                            padding: 5px 0;
-                        }
-                    }
-                }
-            }
-        }
-          
+  h1 {
+    &.lg-heading {
+      font-size: 9.29rem;
+    }
+  }
+
+  .icons {
+    .fab {
+      font-size: 5rem;
     }
 
-    h1 {
-        &.lg-heading {
-            font-size: 9.29rem;
-        }
+    .fas {
+      font-size: 5rem;
     }
-
-    .icons{
-        .fab{
-            font-size: 5rem;
-        }
-
-        .fas{
-            font-size: 5rem;
-        }
-
-    }
-
-    
-    
+  }
 }
 
 // Tablets
 @include mediaMd {
+  html,
+  body {
+    height: 100%;
+    overflow-y: auto;
+  }
 
-    html, body {
-        height: 100%;
-        overflow-y: auto;
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      &.lg-heading {
+        font-size: 4.29rem;
+      }
     }
 
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .swiper-container {
+      padding-top: 110px;
 
-        h1 {
-            &.lg-heading {
-                font-size: 4.29rem;
-            }
-        }
-
-       .swiper-container {
-
-        padding-top: 110px;
-
-            .swiper-slide {
-                width: 300px;
-                height: 300px;
-            }
-        }
-        .cards-wrapper {
-            flex-direction: column;
-            align-items: center;
-          }
-        
-          .card {
-              width: 400px;
-              height: 600px;
-              margin: 6rem 0;
-
-            .front-side {
-                .offer-name {
-                    font-size: 20px;
-                }
-            }
-
-            .back-side {
-
-                .offer-name-back {
-                    font-size: 20px;
-                }
-
-                .card-list-item {
-                    font-size: 15px;
-                }
-            }
-          }
-          
-
-        .logo {
-            justify-content: center;
-            background: url('../img/logo.png');
-            width: 235px;
-            height: 100px;
-            margin-top: 15vh;
-        }
-
-        .lg-heading {
-            line-height: 1;
-            margin-bottom: 1rem;
-            font-size: 4.29rem;
-        }
-
-        .about-info {
-            flex-direction: column;
-            margin-top: 100px;
-
-            .photo-container {
-                width: 100%;
-                
-            }
-
-            .bio {
-                width: 100%; 
-                margin-top: 0px;
-                height: 200px;
-                
-            }
-        }
-
-        .pricing-table{
-            padding-top: 15px;
-            flex-wrap: wrap;
-            .col{
-                
-            
-                .table{
-                    padding: 20px;
-                    height: 380px;
-                    width: 250px;
-                    .price{
-                        margin-bottom: 10px;
-                    }
-                    ul {
-                        padding: 5px 0;
-                        li{
-                            padding: 5px 0;
-                        }
-                    }
-                }
-            }
-        }
+      .swiper-slide {
+        width: 300px;
+        height: 300px;
+      }
+    }
+    .cards-wrapper {
+      flex-direction: column;
+      align-items: center;
     }
 
-    ul.menu-nav, div.menu-branding {
-        float: none;
+    .card {
+      width: 400px;
+      height: 600px;
+      margin: 1rem 0;
+
+      .front-side {
+        .offer-name {
+          font-size: 20px;
+        }
+      }
+
+      .back-side {
+        .offer-name-back {
+          font-size: 20px;
+        }
+
+        .card-list-item {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .logo {
+      justify-content: center;
+      background: url("../img/logo.png");
+      width: 235px;
+      height: 100px;
+      margin-top: 15vh;
+    }
+
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+      font-size: 4.29rem;
+    }
+
+    .about-info {
+      flex-direction: column;
+      margin-top: 100px;
+
+      .photo-container {
         width: 100%;
-        min-height: 0;
+      }
 
-        &.show {
-            transform: translate3d(0, 0, 0);
+      .bio {
+        width: 100%;
+        margin-top: 0px;
+        height: 200px;
+      }
+    }
+
+    .pricing-table {
+      padding-top: 15px;
+      flex-wrap: wrap;
+      .col {
+        .table {
+          padding: 20px;
+          height: 380px;
+          width: 250px;
+          .price {
+            margin-bottom: 10px;
+          }
+          ul {
+            padding: 5px 0;
+            li {
+              padding: 5px 0;
+            }
+          }
         }
+      }
     }
+  }
 
-    .menu-nav {
-        height: 75vh;
-        transform: translate3d(-100%, 0, 0);
-        font-size: 24px;
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
     }
+  }
 
-    .menu-branding {
-        height: 25vh;
-        transform: translate3d(100%, 0, 0);
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px;
+  }
 
-        .portrait {
-            
-            width: 160px;
-            height: 160px;
-            padding: 20px;
-        }
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0);
+
+    .portrait {
+      width: 160px;
+      height: 160px;
+      padding: 20px;
     }
+  }
 }
 
 // Smartphones
 @include mediaSm {
-    .swiper-container {
-        padding-top: 20px;
+  .swiper-container {
+    padding-top: 20px;
+  }
+
+  .swiper-slide {
+    width: 200px;
+    height: 200px;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .about-info {
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 30px;
+
+    .photo-container {
+      width: 100%;
     }
 
-    .swiper-slide {
-        width: 200px;
-        height: 200px;
+    .bio {
+      width: 100%;
+      margin-top: 0px;
+      height: 260px;
     }
+  }
 
-    .logo {
-        justify-content: center;
-    }
+  .cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .about-info {
-        flex-direction: column;
-        margin-top: 20px;
-        padding-bottom: 30px;
-       
-
-        .photo-container {
-            width: 100%;
-            
-        }
-
-        .bio {
-            width: 100%; 
-            margin-top: 0px;
-            height: 260px;
-            
-        }
-    }
-
-    .cards-wrapper {
-        flex-direction: column;
-        align-items: center;
-      }
-    
-      .card {
-          width: 200px;
-          height: 300px;
-          margin: 6rem 0;
-      }
-    
+  .card {
+    width: 200px;
+    height: 300px;
+    margin: 6rem 0;
+  }
 }
 
-@include mediaXSm{
-
-    .menu{
-
-        .nav-link{
-            padding: 0;
-            font-size: 20px;
-        }
+@include mediaXSm {
+  .menu {
+    .nav-link {
+      padding: 0;
+      font-size: 20px;
     }
+  }
 
-    .menu-branding{
-        height: 35vh;
+  .menu-branding {
+    height: 35vh;
+  }
+
+  .menu-nav {
+    height: 65vh;
+    justify-content: flex-start;
+    padding-top: 40px;
+  }
+
+  .portrait {
+    img {
+      width: 90px;
     }
+  }
 
-    .menu-nav{
-        height: 65vh;
-        justify-content: flex-start;
-        padding-top: 40px;
+  .about-header-lg {
+    font-size: 35px !important;
+  }
+
+  .work-header-lg {
+    font-size: 30px !important;
+  }
+
+  .about-header-sm {
+    font-size: 15px !important;
+  }
+
+  .work-header-sm {
+    visibility: hidden;
+    height: 0;
+    margin-bottom: 0 !important;
+  }
+
+  .photo-container {
+    visibility: hidden !important;
+    height: 0;
+    padding: 0 !important;
+  }
+
+  .text-container {
+    padding: 0 !important;
+    margin: 0 !important;
+
+    p {
+      font-size: 15px !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      text-align: justify;
     }
+  }
 
-    .portrait{
+  .swiper-container {
+    padding-top: 20px !important;
+    height: 380px !important;
+  }
 
-        img{
-            width: 90px;
-        }
-    }
+  .offers-header-lg {
+    font-size: 30px !important;
+  }
 
-    .about-header-lg{
-        font-size: 35px!important;
-    }
+  .offers-header-sm {
+    font-size: 20px !important;
+    margin-bottom: 0 !important;
+  }
 
-    .work-header-lg{
-        font-size: 30px!important;
-    }
+  .cards-wrapper {
+    margin-top: 30px !important;
+    padding-bottom: 40px !important;
+  }
 
-    .about-header-sm{
-        font-size: 15px!important;
-    }
+  .card {
+    margin: 25px 0 !important;
+    width: 200px !important;
+    height: 300px !important;
+    margin-bottom: 90px !important;
+  }
 
-    .work-header-sm{
-        visibility: hidden;
-        height: 0;
-        margin-bottom: 0!important;
-    }
+  .navigation-button {
+    font-size: 10px !important;
+  }
 
-    .photo-container{
-        visibility: hidden!important;
-        height: 0;
-        padding: 0!important;
-    }
+  .prices-header-lg {
+    font-size: 30px !important;
+  }
 
-    .text-container{
+  .pricing-table {
+    width: 120px;
+  }
 
-         padding: 0!important;
-         margin: 0!important;
+  .table {
+    width: 200px !important;
+    height: 300px !important;
+  }
 
-        p{
-         font-size: 15px!important;
-         padding: 0!important;
-         margin: 0!important;
-         text-align: justify;
-        }
-    }   
+  .table h2 {
+    font-size: 11px !important;
+    position: absolute;
+    top: 10px;
+    font-weight: bold;
+  }
 
-    .swiper-container{
-        padding-top: 20px!important;
-        height: 380px!important;
-    }
+  .table li {
+    font-size: 9px !important;
+    padding: 0 !important;
+  }
 
-    .offers-header-lg{
-        font-size: 30px!important;
-    }
+  .price {
+    font-size: 16px !important;
+  }
 
-    .offers-header-sm{
-        font-size: 20px!important;
-        margin-bottom: 0!important;
-    }
+  .col {
+    padding-bottom: 30px !important;
+  }
 
-    .cards-wrapper{
-        margin-top: 900px!important;
-        padding-bottom: 1000px!important;
-    }
+  .contact-header-lg {
+    font-size: 30px !important;
+  }
 
-    .card{
-        
-        margin: 25px 0!important;
-        width: 200px!important;
-        height: 300px!important;
-        margin-bottom: 90px!important;
-    }
+  .contact-header-sm {
+    font-size: 15px !important;
+  }
 
-    .navigation-button{
-        font-size: 10px!important;
-    }
+  .boxes {
+    margin-top: 10px !important;
+  }
 
-    .prices-header-lg{
-        font-size: 30px!important;
-    }
-
-    .pricing-table{
-        width: 120px;
-    }
-
-    .table{
-        width: 200px!important;
-        height: 300px!important;
-        
-    }
-
-    .table h2{
-        font-size: 11px!important;
-        position: absolute;
-        top: 10px;
-        font-weight: bold;
-    }
-
-    .table li{
-        font-size: 9px!important;
-        padding: 0!important;
-    }
-
-    .price{
-        font-size: 16px!important;
-    }
-
-    .col{
-        padding-bottom: 30px!important;
-        
-    }
-
-    .contact-header-lg{
-        font-size: 30px!important;
-    }
-
-    .contact-header-sm{
-        font-size: 15px!important;
-    }
-
-    .boxes{
-        margin-top: 10px!important;
-    }
-
-    .mobile{
-        font-size: 15px!important;
-        margin-bottom: 1rem!important;
-    }
+  .mobile {
+    font-size: 15px !important;
+    margin-bottom: 1rem !important;
+  }
 }

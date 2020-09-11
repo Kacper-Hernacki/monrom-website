@@ -113,7 +113,8 @@
     font-size: 5rem; } }
 
 @media screen and (min-width: 1148px) and (max-width: 1400px) {
-  html, body {
+  html,
+  body {
     height: 100%;
     overflow-y: auto; }
   main {
@@ -161,7 +162,8 @@
     font-size: 5rem; } }
 
 @media screen and (max-width: 1147px) {
-  html, body {
+  html,
+  body {
     height: 100%;
     overflow-y: auto; }
   main {
@@ -182,7 +184,7 @@
     main .card {
       width: 400px;
       height: 600px;
-      margin: 6rem 0; }
+      margin: 1rem 0; }
       main .card .front-side .offer-name {
         font-size: 20px; }
       main .card .back-side .offer-name-back {
@@ -221,11 +223,13 @@
           padding: 5px 0; }
           main .pricing-table .col .table ul li {
             padding: 5px 0; }
-  ul.menu-nav, div.menu-branding {
+  ul.menu-nav,
+  div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0; }
-    ul.menu-nav.show, div.menu-branding.show {
+    ul.menu-nav.show,
+    div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
     height: 75vh;
@@ -308,8 +312,8 @@
     font-size: 20px !important;
     margin-bottom: 0 !important; }
   .cards-wrapper {
-    margin-top: 900px !important;
-    padding-bottom: 1000px !important; }
+    margin-top: 30px !important;
+    padding-bottom: 40px !important; }
   .card {
     margin: 25px 0 !important;
     width: 200px !important;
@@ -387,7 +391,7 @@ html, body {
     background-attachment: fixed;
     background-size: cover; }
     .about-bg#bg-img::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
@@ -408,7 +412,7 @@ html, body {
     background-attachment: fixed;
     background-size: cover; }
     .works-bg#bg-img::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
@@ -429,7 +433,7 @@ html, body {
     background-attachment: fixed;
     background-size: cover; }
     .offers-bg#bg-img::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
@@ -451,7 +455,7 @@ html, body {
     background-attachment: fixed;
     background-size: cover; }
     .contact-bg#bg-img::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
@@ -472,7 +476,7 @@ html, body {
     background-attachment: fixed;
     background-size: cover; }
     .prices-bg#bg-img::after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
