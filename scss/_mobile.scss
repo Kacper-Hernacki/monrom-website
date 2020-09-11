@@ -255,6 +255,10 @@
 
 // Smartphones
 @include mediaSm {
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
   .swiper-container {
     padding-top: 20px;
   }
@@ -297,6 +301,10 @@
 }
 
 @include mediaXSm {
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
   .menu {
     .nav-link {
       padding: 0;
